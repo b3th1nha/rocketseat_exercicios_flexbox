@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+}
+
+body{
+    min-height: 100vh;
+}
+
+header{
+    background: rosybrown;
+    padding: 5%; 
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: purple;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+ul{
+    display:flex;
+    gap: 20px;
+    align-items: center;font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+ul a:last-child{
+    background: purple;
+    padding: 10px;
+}
+
+.colunas {
+    display: flex;
+    gap: 10px;;
+}
+
+aside, main{
+    color:rosybrown;
+    border: 2px solid purple;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 50vh;
+}
+
+aside{
+    flex-basis: 25%;
+}
+
+main{
+    flex: 1;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color:purple;
+}
+
+.buttons{
+    display:flex;
+    justify-content: center;
+}
+
+button{
+    background: rosybrown;
+    color: black;
+    border: none;
+    border-radius:8px;
+    font-size: 15px;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 15%;    
+}
+
+button:hover{
+    background: plum;
+}
+
+.icones{
+    width:20px;
+    text-align: center;
+}
+
+.photos{
+    display:flex;
+    flex-wrap: wrap; 
+    gap: .8rem;
+    justify-content: center;
+    padding: 1%;
+}
+
+img{
+    width: 10%;
+    height: auto;
+    flex-basis: 25%;
+}
+
+footer{
+    background: rosybrown;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
